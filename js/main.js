@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         status.textContent = 'Please enter your name.';
         return;
       }
-      status.textContent = `Thanks, ${name}! This form is a demo — email us directly instead.`;
+      status.textContent = `Thanks, ${name}. This form's just a demo for now, email us directly instead.`;
       form.reset();
     });
   }
